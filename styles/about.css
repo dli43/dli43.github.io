@@ -1,0 +1,46 @@
+.about-section .divider{
+  height: 200px;
+}
+.about-container{
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.pfp-container{
+  margin-right: 100px;
+}
+.pfp{
+  height: 450px;
+  width: 450px;
+  border-radius: 225px;
+  object-fit: cover;
+  box-shadow: 10px 20px 20px rgba(0,0,0,0.15);
+}
+.about-info{
+
+}
+.about-description{
+  font-size: 25px;
+}
+.contact-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.contact-container{
+  margin-right: 25px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  transition: 0.25s;
+}
+.contact-icon{
+  width: 80px;
+}
+.contact-container:hover{
+  padding-top: 0px;
+  padding-bottom: 4px;
+}

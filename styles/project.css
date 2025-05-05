@@ -1,0 +1,41 @@
+.project-section{
+  
+}
+.project-section .divider{
+  height: 120px;
+}
+.project-container{
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.project-header{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+.project-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 40px;
+}
+.project-preview{
+  border-style: solid;
+  padding: 25px;
+  box-shadow: 10px 20px 20px rgba(0,0,0,0.15);
+}
+.project-title{
+  font-size: 25px;
+  font-weight: 500;
+}
+.thumbnail-row{
+  
+}
+.thumbnail{
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.skills-section{
+  
+}
+.skills-section .divider{
+  height: 120px;
+}
+.skills-container{
+  background-color: rgb(240,240,240);
+  padding-top: 20px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.skills-header{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+.skills-line{
+  font-size: 25px;
+  margin-bottom: 10px;
+}

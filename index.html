@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daniel Li's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/skills.css">
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="left-section">
+        Daniel Li's Portfolio
+      </div>
+      <div class="right-section">
+        <a href="#about-section">
+          <div class="section-topic">About</div>
+        </a>
+        <a href="#project-section">
+          <div class="section-topic">Projects</div>
+        </a>
+        <a href="#skills-section">
+          <div class="section-topic">Skills</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="about-section" id="about-section">
+
+      <div class="divider"></div>
+
+      <div class="about-container">
+        
+        <div class="pfp-container">
+          <img class="pfp" src="pictures/head-shot.jpg">
+        </div>
+        
+        <div class="about-info">
+          
+          <div class="about-description">
+            Welcome to my portfolio! I'm Daniel, a 3rd year electrical engineering student at the University of British Columbia.
+            Within my academic realm, you will find me nestled deep in some textbooks or web forums in order to solve a problem I am transfixed on.
+            I love problem-solving. But more than that, I love instilling creativity to my solutions and workarounds that complement my logical side. 
+            I am interested in a wide variety of subjects such as signal processing, digital systems design, controls, analog electronics, electromagnetics and many more.
+            I also love studying higher-level maths and its applications toward electrical engineering.
+            Outside of school I enjoy bouldering, listening to classical works, and reading fantasy novels. 
+          </div>
+          
+          <div class="contact-row">
+            <div class="contact-container">
+              <a href="https://www.linkedin.com/in/dli-daniel-li/" target="_blank">
+                <img class="contact-icon" src="icons/linkedin.svg">
+              </a>
+            </div>
+            <div class="contact-container">
+              <a href="https://github.com/dli43" target="_blank">
+                <img class="contact-icon" src="icons/github.svg">
+              </a>
+            </div>
+            <div class="contact-container">
+              <a href="mailto:dlidaniel2004@gmail.com">
+                <img class="contact-icon" src="icons/email.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+    </div>
+
+    <div class="project-section" id="project-section">
+
+      <div class="divider"></div>
+
+      <div class="project-container">
+        <div class="project-header">Projects</div>
+          
+        <div class="project-grid">
+          
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/simple-risc-machine.png">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Simple RISC Machine
+              </div>
+              <div class="project-description">
+                Microprocessor architecture that implements a Reduced Instruction Set Computer (RISC). 
+                Includes datapath, FSM controller, RAM, and memory-mapped I/O peripherals constructed using a DE1-S0C FPGA board.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/audio-mixer.png">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Audio Mixer
+              </div>
+              <div class="project-description">
+                Python scripts that process imported audio files and uses FFT and selective filtering to adjust sound.
+              </div>
+            </div>
+          </div>
+
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/oven-reflow-controller.jpg">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Oven Reflow Controller
+              </div>
+              <div class="project-description">
+                Embedded system using an EFM8 microcontroller to control a standard off-the-shelf 1500W toaster oven for reflow soldering. 
+              </div>
+            </div>
+          </div>
+
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/gripper-controls.jpg">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Claw Feedback Control
+              </div>
+              <div class="project-description">
+                System identification and feedback control implementation of a 3-finger claw using LTI modelling and PID control via MATLAB. 
+              </div>
+            </div>
+          </div>
+
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/baccarat-engine.jpg">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Baccarat Engine
+              </div>
+              <div class="project-description">
+                Digital system that runs the game of Baccarat on a DE1-S0C FPGA board using seven-segment displays and red LEDS for user interface.
+              </div>
+            </div>
+          </div>
+
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/arc4-decryption-circuit.jpg">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                ARC4 Cracking Circuit
+              </div>
+              <div class="project-description">
+                Digital system that cracks ARC4 encrypted messages by loading ciphertext on on-chip memory then initiates a "brute-force"
+                attack by cycling through key space using FPGA implemented hardware.
+              </div>
+            </div>
+          </div>
+        
+          <div class="project-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="pictures/transforms.png">
+            </div>
+            <div class="project-info">
+              <div class="project-title">
+                Hilbert & Fourier Tranforms
+              </div>
+              <div class="project-description">
+                Investigation and application of the Hilbert & Fourier transforms on DAQ signals for power analysis.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+      
+      </div>
+    </div>
+
+    <div class="skills-section" id="skills-section">
+      <div class="divider"></div>
+
+      <div class="skills-container">
+        
+        <div class="skills-header">Skills</div>
+      
+        <div class="skills-line">
+          <b>Languages:</b>
+          C, Python, MATLAB, Assembly, SystemVerilog, HTML/CSS, Latex
+        </div>
+        
+        <div class="skills-line">
+          <b>Tools & Frameworks:</b>
+          Git, Quartus, ModelSim, SOLIDWORKS, Microsoft Office, VS code, MATLAB, LTspice
+        </div>
+        
+        <div class="skills-line">
+          <b>Electrical:</b>
+          Data Acquisition, Signal Processing, Embedded Systems, FPGAs, Systems ID/Controls, Soldering, Multimeter/Oscilloscope
+        </div>        
+      
+      </div>
+
+    </div>
+
+
+
+
+
+  </body>
+</html>
